@@ -9,12 +9,12 @@ Created for a C# course at Ohio State. This program is a simple music player tha
 ---
 Welcome screen (some text is old)
 
-![welcome](img/welcome.JPG =150x)
+<img src="img/welcome.JPG" alt="welcome screen" style="width: 150px"/>
 
 Adding a new song
 
-![new-song](img/new-song.JPG =150x)
+<img src="img/new-song.JPG" alt="welcome screen" style="width: 150px"/>
 
 While a song is playing
 
-![song-playing](img/song-playing.JPG =150x)
+<img src="img/song-playing.JPG" alt="welcome screen" style="width: 150px"/>

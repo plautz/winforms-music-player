@@ -21,3 +21,14 @@ D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\
 D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.ResolveComReference.cache
 D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.exe
 D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.pdb
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.exe
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\bin\Debug\MusicPlayer.pdb
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\bin\Debug\NAudio.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\bin\Debug\NAudio.WindowsMediaFormat.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\bin\Debug\Interop.WMPLib.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csprojResolveAssemblyReference.cache
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.MusicPlayerMain.resources
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.Properties.Resources.resources
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.SongForm.resources
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\MusicPlayer\obj\Debug\MusicPlayer.csproj.GenerateResource.Cache

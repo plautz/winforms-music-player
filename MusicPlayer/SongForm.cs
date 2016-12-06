@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
+using NAudio.Wave;
 
 namespace MusicPlayer
 {
@@ -201,12 +202,27 @@ namespace MusicPlayer
             // Input validation
             if (!IsInputValid())
             {
-                string message = "Title, Artist, and MP3 File cannot be empty.";
+                string message = "Title, Artist, and Music File cannot be empty.";
                 string caption = "Invalid Input";
                 MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
+            // Check if music file is valid
+            try
+            {
+                AudioFileReader test = new AudioFileReader(mp3PathTextBox.Text);
+                test.Dispose();
+            }
+            catch (Exception ex)
+            {
+                string message = "Music file not valid. Check path and file for errors.";
+                string caption = "Invalid Music File";
+                MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // If we're editting an existing song, remove the previous and add the new one
             if (!new_song_form)
             {
                 foreach (Artist a in bindingArtists)
@@ -218,6 +234,7 @@ namespace MusicPlayer
                 }
             }
 
+            // Attempt to add the song to the binding artists list
             if (!AddSong())
                 return;
 

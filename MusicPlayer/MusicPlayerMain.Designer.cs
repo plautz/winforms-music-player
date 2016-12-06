@@ -42,6 +42,7 @@
             this.titleLabel = new System.Windows.Forms.Label();
             this.artistLabel = new System.Windows.Forms.Label();
             this.playbackPanel = new System.Windows.Forms.Panel();
+            this.playPause = new MusicPlayer.RoundButton();
             this.musicTrackBar = new System.Windows.Forms.TrackBar();
             this.totalTime = new System.Windows.Forms.Label();
             this.elapsedTime = new System.Windows.Forms.Label();
@@ -50,7 +51,6 @@
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.welcomeLabel = new System.Windows.Forms.Label();
-            this.playPause = new MusicPlayer.RoundButton();
             this.menuStrip.SuspendLayout();
             this.playbackPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.musicTrackBar)).BeginInit();
@@ -205,6 +205,21 @@
             this.playbackPanel.Size = new System.Drawing.Size(321, 117);
             this.playbackPanel.TabIndex = 11;
             // 
+            // playPause
+            // 
+            this.playPause.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.playPause.FlatAppearance.BorderSize = 0;
+            this.playPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.playPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.playPause.ForeColor = System.Drawing.SystemColors.Control;
+            this.playPause.Location = new System.Drawing.Point(133, 54);
+            this.playPause.Name = "playPause";
+            this.playPause.Size = new System.Drawing.Size(60, 40);
+            this.playPause.TabIndex = 12;
+            this.playPause.Text = "PAUSE";
+            this.playPause.UseVisualStyleBackColor = false;
+            this.playPause.Click += new System.EventHandler(this.playPause_Click);
+            // 
             // musicTrackBar
             // 
             this.musicTrackBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -286,26 +301,11 @@
             this.welcomeLabel.Location = new System.Drawing.Point(131, 164);
             this.welcomeLabel.MaximumSize = new System.Drawing.Size(350, 0);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(313, 72);
+            this.welcomeLabel.Size = new System.Drawing.Size(348, 96);
             this.welcomeLabel.TabIndex = 13;
-            this.welcomeLabel.Text = "Load an audio library from the \"Options...\" menu item or add a new song to begin." +
-    "";
+            this.welcomeLabel.Text = "Load an audio library from the \"Options...\" menu item, add a new song, or choose " +
+    "an existing song from below to begin.";
             this.welcomeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // playPause
-            // 
-            this.playPause.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.playPause.FlatAppearance.BorderSize = 0;
-            this.playPause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.playPause.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.playPause.ForeColor = System.Drawing.SystemColors.Control;
-            this.playPause.Location = new System.Drawing.Point(133, 54);
-            this.playPause.Name = "playPause";
-            this.playPause.Size = new System.Drawing.Size(60, 40);
-            this.playPause.TabIndex = 12;
-            this.playPause.Text = "PAUSE";
-            this.playPause.UseVisualStyleBackColor = false;
-            this.playPause.Click += new System.EventHandler(this.playPause_Click);
             // 
             // MusicPlayerMain
             // 

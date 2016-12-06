@@ -323,6 +323,7 @@ namespace MusicPlayer
                     bindingArtists.Remove(selectedArtist);
                     return;
                 }
+
                 bindingSongs = new BindingList<Song>(selectedArtist.Songs);
                 bindingSongs.RaiseListChangedEvents = true;
                 bindingSongs.AllowEdit = true;
@@ -420,13 +421,27 @@ namespace MusicPlayer
         /// <param name="e"></param>
         private void openMusicLibraryToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (changes_not_saved)
+            {
+                string message = "You have made changes and are attempting to load a different library.\nAll changes will be lost.";
+                string caption = "Unsaved Work";
+                DialogResult d = MessageBox.Show(message, caption, MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+
+                if (d == DialogResult.Cancel)
+                    return;
+            }
+
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 XmlSerializer s = new XmlSerializer(artists.GetType());
                 using (TextReader r = new StreamReader(openFileDialog.FileName))
                 {
                     List<Artist> newArtists = (List<Artist>)s.Deserialize(r);
+
                     player.Stop();
+                    ChangeVisibility(false);
+                    CenterContent();
+
                     bindingArtists.Clear();
                     foreach (Artist a in newArtists)
                         bindingArtists.Add(a);
@@ -434,8 +449,9 @@ namespace MusicPlayer
                     if (bindingArtists.Count > 0)
                         editSongButton.Enabled = true;
 
-                    artistsListBox.Invalidate();
-                    songsListBox.Invalidate();
+                    artistsListBox_SelectedIndexChanged(sender, null);
+
+                    changes_not_saved = false;
                 }
             }
         }

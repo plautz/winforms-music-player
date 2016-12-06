@@ -8,10 +8,10 @@ Created for a C# course at Ohio State. This program is a simple music player tha
 ### Screenshots
 ---
 Welcome screen (some text is old)
-!(img/welcome.JPG)
+![welcome](img/welcome.JPG)
 
 Adding a new song
-!(img/new-song.JPG)
+![new-song](img/new-song.JPG)
 
 While a song is playing
-!(img/song-playing.JPG)
+![song-playing](img/song-playing.JPG)

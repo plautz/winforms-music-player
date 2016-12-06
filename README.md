@@ -9,16 +9,16 @@ Created for a C# course at Ohio State. This program is a simple music player tha
 ---
 #### Welcome screen (some text is old)
 
-<img src="img/welcome.JPG" alt="welcome screen" style="max-width: 85%;"/>
+<img src="img/welcome.JPG" alt="welcome screen" style="margin-bottom: 20px;" />
 
 
 
 #### Adding a new song
 
-<img src="img/new-song.JPG" alt="welcome screen" style="max-width: 85%;"/>
+<img src="img/new-song.JPG" alt="welcome screen" style="margin-bottom: 20px;" />
 
 
 
 #### While a song is playing
 
-<img src="img/song-playing.JPG" alt="welcome screen" style="max-width: 85%;"/>
+<img src="img/song-playing.JPG" alt="welcome screen" style="margin-bottom: 20px;" />

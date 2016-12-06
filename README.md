@@ -6,5 +6,5 @@ Created for a C# course at Ohio State. This program is a simple music player tha
 
 ---
 
-##### Target framework: .NET 4.5.2
+#### **Target framework:** .NET 4.5.2
 

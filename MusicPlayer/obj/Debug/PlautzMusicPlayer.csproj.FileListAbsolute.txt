@@ -1,0 +1,17 @@
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\PlautzMusicPlayer.exe.config
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\PlautzMusicPlayer.exe
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\PlautzMusicPlayer.pdb
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.csprojResolveAssemblyReference.cache
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.Properties.Resources.resources
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.csproj.GenerateResource.Cache
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.exe
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.pdb
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\Interop.WMPLib.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\AxInterop.WMPLib.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\Interop.WMPLib.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\AxInterop.WMPLib.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.csproj.ResolveComReference.cache
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\NAudio.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\bin\Debug\NAudio.WindowsMediaFormat.dll
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.MusicPlayer.resources
+D:\Users\Derek\Documents\code\c#-code\cse4253\PlautzMusicPlayer\PlautzMusicPlayer\obj\Debug\PlautzMusicPlayer.SongForm.resources
